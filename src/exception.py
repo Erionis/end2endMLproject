@@ -11,7 +11,7 @@ def error_message_detail(error,error_detail):
     
     return error_message
     
-class CustomExceprion(Exception):
+class CustomException(Exception):
     '''
     This is the custom exception class which will be used to raise the exception
     '''
